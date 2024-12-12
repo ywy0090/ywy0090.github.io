@@ -106,8 +106,3 @@ Several models have been evaluated for Chinese sentence embeddings:
 - `sentence-transformers/all-mpnet-base-v2`
 - `sentence-transformers/distilbert-base-nli-max-tokens`
 - `paraphrase-multilingual-mpnet-base-v2`
-
-Testing was performed by computing embedding similarities between sentences like:
-
-
-// ... rest of the content ... 
