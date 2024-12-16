@@ -1,5 +1,6 @@
 ---
 title: Local Hosting Qwq 32B with llama.cpp on Dual 4090s
+permalink: Qwq-32B-with-llama.cpp-on-Dual-4090s-QWQ-Qwen-LLM-Deployment
 date: 2024-12-09 12:00:00 +0800
 categories: [LLM, Deployment]
 tags: [llama.cpp, gpu, rtx-4090, local-llm, cuda, ubuntu]

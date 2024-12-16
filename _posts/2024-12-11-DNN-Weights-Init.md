@@ -1,5 +1,6 @@
 ---
 title: Deep Neural Network Weight Initialization Methods
+permalink: DNN-Weight-Initialization-Methods
 date: 2024-12-11 16:00:00 +0800
 categories: [Machine Learning, Deep Learning]
 tags: [neural-networks, initialization, deep-learning, weights]

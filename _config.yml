@@ -73,7 +73,8 @@ analytics:
     id: 9fb43da6338849d1b7122d9af185bacb # fill in your Cloudflare Web Analytics token
   fathom:
     id: # fill in your Fathom Site ID
-
+plugins:
+  - jekyll-seo-tag
 # Page views settings
 pageviews:
   provider: # now only supports 'goatcounter'
