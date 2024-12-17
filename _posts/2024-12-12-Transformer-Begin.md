@@ -1,5 +1,6 @@
 ---
 title: "Understanding Transformer Architectures: From Seq2Seq to Modern Variants"
+permalink: Transformer-Architectures-Attentions
 date: 2024-12-12 09:00:00 +0800
 categories: [Machine Learning, Deep Learning]
 tags: [transformers, attention, nlp, deep-learning, seq2seq]

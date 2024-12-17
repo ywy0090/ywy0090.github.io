@@ -1,5 +1,6 @@
 ---
 title: Summary of Different Embedding Models
+permalink: Embedding-Models-Summary
 date: 2024-12-11 09:00:00 +0800
 categories: [Machine Learning, NLP]
 tags: [embeddings, nlp, machine-learning, text-embeddings]

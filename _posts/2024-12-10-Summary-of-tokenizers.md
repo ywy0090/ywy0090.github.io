@@ -1,5 +1,6 @@
 ---
 title: Summary of the Tokenizers in NLP
+permalink: Summary-Tokenizers-NLP
 date: 2024-12-10 14:00:00 +0800
 categories: [NLP, Tokenization]
 tags: [nlp, tokenizer, bert, gpt, transformers, hugging-face]

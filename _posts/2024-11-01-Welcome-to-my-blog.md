@@ -1,5 +1,6 @@
 ---
 title: Welcome to My AI & Technology Blog
+permalink: Welcome-My-Blog
 date: 2024-11-01 12:00:00 +0800
 categories: [Welcome, Introduction]
 tags: [ai, machine-learning, nlp, computer-vision]
