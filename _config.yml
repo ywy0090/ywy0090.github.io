@@ -75,6 +75,7 @@ analytics:
     id: # fill in your Fathom Site ID
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
 # Page views settings
 pageviews:
   provider: # now only supports 'goatcounter'
