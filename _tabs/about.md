@@ -93,7 +93,7 @@ Feel free to reach out if you want to:
 
 You can find me on:
 - [GitHub](https://github.com/ywy0090)
-- Email: ywy0090@gmail.com
+- Email Me ~
 
 ---
 
