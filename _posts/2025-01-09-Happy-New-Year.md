@@ -2,7 +2,7 @@
 title: Happy New Year
 date: 2025-01-09 12:00:00 +0800
 categories: [Personal, Holiday]
-tags: [new year, celebration, 2025]
+tags: [new year, celebration]
 image: /assets/img/post/new_year/pexels-jill-wellington-1638660-3334355.jpg
 toc: true
 math: false
