@@ -31,6 +31,6 @@ Out with the old, in with the new! Happy New Year!
 辞旧迎新！新年快乐！ 
 Raus mit dem Alten, rein mit dem Neuen! Frohes neues Jahr!
 
-新年快乐！心想事成！Gōngxǐ fācái! (恭喜发财！ - Wishing you prosperity and wealth - a common Chinese New Year greeting)  
+新年快乐！心想事成！恭喜发财！ - Wishing you prosperity and wealth - a common Chinese New Year greeting)  
 Frohes neues Jahr und viel Glück!
 
