@@ -31,7 +31,9 @@ Provide necessary context or background information that readers need to underst
   - TensorFlow compatibility 
   - JAX/Flax implementations
 - Extensive pre-trained model support with easy fine-tuning capabilities
+
 ### Training with PyTorch Trainer
+
 - Provides an optimized Trainer class specifically for Transformer models
 - Eliminates need to write custom training loops
 - Key features:
@@ -53,7 +55,9 @@ Provide necessary context or background information that readers need to underst
   - Batch sizes
   - Training epochs
   - Evaluation strategies
+
 ### Training with TensorFlow/Keras
+
 - Seamless integration with TensorFlow's Keras API for model training
 - Advantages of using Keras:
   - High-level, user-friendly API
@@ -233,6 +237,7 @@ Provide necessary context or background information that readers need to underst
 - Reduces memory usage by sharding model states.
 - Supports complex models with large parameter sizes.
 - Integrates seamlessly with PyTorch's existing ecosystem.
+
 ### How FSDP Works
 
 At a high level FSDP works as follows:
@@ -276,6 +281,7 @@ One way to view FSDP's sharding is to decompose the DDP gradient all-reduce into
   - Model state dict handling
 - Improved integration with PyTorch ecosystem tools
 - Better performance monitoring and profiling capabilities
+
 ### Float8 Training Support
 - Implements float8 format introduced by NVIDIA, ARM, and Intel in 2022
 - Key advantages:
@@ -294,6 +300,7 @@ One way to view FSDP's sharding is to decompose the DDP gradient all-reduce into
   - Distributed training framework support through FSDP2
   - Weight communication between GPUs in float8
   - Attention computation in bf16 using SDPA (float8 in development)
+  
 ### Training Loss Comparison
 ![FSDP1 vs FSDP2 Loss Comparison](/assets/img/post/llm_train_frameworks/fg2.png)
 *Training loss comparison between FSDP1 and FSDP2 showing equivalent convergence behavior*
