@@ -69,7 +69,15 @@ Character tokenization breaks text down into individual characters, providing th
 
 ### 3. Subword Tokenization
 
-![comparison of wordpiece and bpe](/assets/img/post/summary_tokenizers/cmp_wordpiece_bpe.png)
+#### [comparison of wordpiece and bpe]
+
+| Feature           | WordPiece                                                | BPE                                   |
+|------------------|----------------------------------------------------------|---------------------------------------|
+| Merging unit     | Subword                                                  | Symbol                                |
+| Merging strategy | Merge the most frequent subword pairs                    | Merge the most frequent symbol pairs  |
+| Language         | Well-suited for languages with a large number of         | Can be used for any language          |
+| suitability      | rare words                                               |                                       |
+
 _comparison of wordpiece and bpe_{: .text-center }
 
 Subword tokenization is a hybrid approach that breaks words into meaningful subword units, balancing vocabulary size and semantic meaning.
@@ -183,8 +191,20 @@ Consider these factors when selecting a tokenizer:
 
 ## Conclusion
 
-![comparison of wordpiece, bpe, sentencepiece](/assets/img/post/summary_tokenizers/cmp_tokens.png)
-_comparison of wordpiece, bpe, sentencepiece_{: .text-center }
+### Comparison of Popular Tokenization Methods
+
+| Feature | WordPiece | SentencePiece | BPE |
+|:--------|:----------|:--------------|:-----|
+| Merging Unit | Subword tokens | Character/subword tokens | Character pairs |
+| Algorithm | Likelihood-based merging of frequent subwords | Unigram language model with subword regularization | Iterative merging of most frequent pairs |
+| Vocabulary Size | Fixed (typically 30-50k) | Configurable (8k-32k common) | Configurable (typically 30-50k) |
+| Language Support | Best for English and morphologically rich languages | Language agnostic, works well for any script | Language agnostic |
+| Pre/Post Processing | Requires preprocessing | Built-in normalization | Requires preprocessing |
+| Special Features | - Used in BERT<br>- Good for rare words | - Integrated training pipeline<br>- Memory efficient<br>- Fast inference<br>- Built-in normalization | - Simple implementation<br>- Used in GPT models |
+| Implementation | Part of BERT | Standalone library | Multiple implementations |
+{: .table-bordered .table-striped}
+
+*Comparison of popular subword tokenization methods used in modern language models*{: .text-center}
 
 ## References
 
